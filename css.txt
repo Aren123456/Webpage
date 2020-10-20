@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+ #showcase{
+ 	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(../123.jpg);
+ 	height: 55vh;
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ #showcase ul{
+ 	float: right;
+ 	list-style-type: none;
+ 	margin-top: 0px;
+ }
+ #showcase .image{
+ 	float: right;
+ 	margin-top: 20px;
+ 	margin-right: 50px;
+
+ }
+ #showcase li{
+ 	display: inline-block;
+ }
+ #showcase ul li a{
+ 	text-decoration: none;
+ 	color: #ff5733;
+ 	padding: 5px 20px;
+ 	border: 1px solid #fff;
+
+ }
+ #showcase ul li a:hover{
+ 	background-color: #000;
+ 	color: #fff;
+ }
+#showcase .button{
+	text-decoration: none;
+	border:1px solid #ddd;
+	padding: 4px 40px;
+	margin-left: 75px;
+	border-radius: 10px;
+
+}
+#showcase .word .button {
+	color: #000;
+}
+#showcase .button:hover{
+	background-color: #000;
+	color: #fff;
+}
+#showcase .word {
+	display: inline-block;
+	text-decoration: none;
+	color: #ff5733;
+}
+#showcase .head {
+	display: inline-block;
+	text-decoration: none;
+	color: #0000ff;
+}
+#showcase .last {
+	display: inline-block;
+	text-decoration: none;
+	border :1px solid #ddd;
+	padding: 5px 15px;
+	border-radius: 20px;
+	color: #000;
+
+}
+#showcase .last:hover{
+	background-color: #000;
+	color: #fff;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  width: 100%;
+}
+
+#customers td, #customers th {
+  color: #800080;
+  background-color: #c0c0c0;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 8px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header id="showcase">
+    <div style="width: 100px; float:left; height:95px; width: 55% ;padding: 8px; margin:10px; color: #fff;  ">
+  <h1>Coursify</h1>
+  <select>
+    <option>
+      <a href="default.asp">list1</a>
+    </option>
+     <option>
+      <a href="default.asp">list2</a>
+    </option>
+     <option>
+      <a href="default.asp">list3</a>
+    </option>
+  </select>
+  </br></br></br></br>
+   <h2>Every Student Matter</h2>
+  <p>Get your doubt Clarified and Attent LIVE classes </br> in the language of your choice</p>
+    </br>
+  <div class="search Box">
+    <input type="text" name="search" placeholder="Search..">
+  </div>
+  <div style="width: 250px; float:left; height:20px; width: 35% ; border: 1px solid #ddd; background-color: ; border-radius: 20px;
+  padding: 8px; margin:10px;  ">
+ <a href="default.asp" class="word"  >Get the app on PlayStore</a>
+</div>
+</div>
+<div>
+</br> </br>
+  <ul>
+     <li><a href="display.asp">Boards</a></li>
+      <li><a href="display.asp">Books</a></li>
+       <li><a href="display.asp">Exam</a></li>
+        <li><a href="display.asp">whyUs?</a></li>
+         <li><a href="display.asp">Signup</a></li>
+  </ul>
+  
+</div>
+<div class="image" >
+  <img src="124.png" width="400" height="200">
+  
+</div>
+
+
+</br> </br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+<div class="word"  style="width: 100px; float:left; height:125px; width: 22% ; border: 1px solid #ddd; background-color: #98afc7; border-radius: 20px;
+  padding: 8px; margin:10px;  ">
+ <center><b>LIVE classes <b></center> <center><b>learn live from<b></center> <center><b>the best tutors<b></center> <center><b> in India<b></center> </br>
+ <a href="default.asp" class="button">Book Now</a>
+</div>
+<div class="word" style="width: 100px; float:left; height: 125px; width: 22% ; border: 1px solid #ddd; background-color: #98afc7; border-radius: 20px;
+  padding: 8px; margin:10px">
+ <center><b>Earn Cash<b></center> <center><b>ask doubts<b></center> <center><b>answer Questions <b></center> <center> <b>earn Money <b></center> </br>
+ <a href="default.asp" class="button">Explore</a>
+</div>
+<div class="word" style="width: 100px; float:left; height:125px;width: 22% ; border: 1px solid #ddd; background-color: #98afc7; border-radius: 20px;
+  padding: 8px; margin:10px">
+<center><b>Exam Preparations<b></center> <center><b>JEE Mains<b></center> <center><b>JEE Advanced<b></center> <center><b> NEET<b></center> </br>
+<a href="default.asp" class="button">Explore</a>
+</div>
+<div class="word" style="width: 100px; float:left; height:125px;width: 22% ; border: 1px solid #ddd; background-color: #98afc7; border-radius: 20px;
+  padding: 8px; margin:10px">
+<b><center>Sample test </center> <center>Tests With</center> <center>detailed Analysis</center> <center>national ranking</center></b> </br>
+<a href="default.asp" class="button">Explore</a>
+</div>
+</br> </br></br></br> </br></br></br> </br>
+<table id="customers">
+  </br> </br>
+  <h3>Study Materials of 50+ states Boards</h3>
+  <tr>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+    <td><input type="checkbox">Andhra Pradesh</td>
+  </tr>
+</table>  
+</br> </br>
+<table id="customers" >
+  <h3>Exams that you can ace with Coursify<h3>
+  <tr>
+    <td><a href="default.asp" class="head" ><b>Board Exams</b></a></td>
+    <td><a href="default.asp" class="head" ><b>JEE Mains & Advanced</b></a></td>
+    <td><a href="default.asp" class="head"><b>NEET</b></a></td>
+  </tr>
+</table>  
+</br> </br>
+<table id="customers">
+  <h3>Explore our subjects<h3>
+  <tr>
+    <td><a href="default.asp" class="head"><b>Maths</b></a></td>
+    <td><a href="default.asp" class="head"><b>Physics</b></a></td>
+    <td><a href="default.asp" class="head"><b>Chemistry</b></a></td>
+    <td><a href="default.asp" class="head"><b>Biology</b></a></td>
+  </tr>
+  <tr>
+    <td ><a href="default.asp" target="_blank" class="head"><b>Science</b></a></td>
+    <td><a href="default.asp" target="_blank" class="head"><b>Commerce</b></a></td>
+    <td><a href="default.asp" target="_blank" class="head"><b>Coding</b></a></td>
+    <td><a href="default.asp" target="_blank" class="head"><b>Languages</b></a></td>
+  </tr>
+</table>
+  <table id="customers">
+    </br> </br>
+   <h3>Free Solutions<h3>
+    <tr>
+      <td><a href="default.asp" class="head"><b>NCERT Solutions</b></a></td>
+      <td><a href="default.asp" class="head"><b>NCERT Exemplar</b></a></td>
+      <td><a href="default.asp" class="head"><b>Referance Books</b></a></td>
+      <td><a href="default.asp" class="head"><b>Exam Prep materials</b></a></td>
+    </tr>
+  </table>
+</br> </br>
+<h3>Testimonals</h3>
+<div class="word"  style="width: 100px; float:left; height:50px; width: 16% ; border: 1px solid #ddd;
+  padding: 8px ; margin:15px;  ">
+</div>
+<div class="word" style="width: 100px; float:left; height: 50px; width: 16% ; border: 1px solid #ddd;
+  padding: 8px; margin:15px">
+</div>
+<div class="word" style="width: 100px; float:left; height:50px;width: 16% ; border: 1px solid #ddd; 
+  padding: 8px; margin:15px">
+</div>
+<div class="word" style="width: 100px; float:left; height:50px;width: 16% ; border: 1px solid #ddd; 
+  padding: 8px; margin:15px">
+</div>
+<div class="word" style="width: 100px; float:left; height:50px;width: 16% ; border: 1px solid #ddd; 
+  padding: 8px; margin:15px">
+</div>
+  <center><a href="default.asp"  class="last">Download the app For Free</a>
+</center>
+</center>
+</div>
+</header>  
+</body>
+</html>
+
+
+
+
