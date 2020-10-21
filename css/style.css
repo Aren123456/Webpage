@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+@media only screen and (min-width: 360px) {
+ #showcase .image{
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: 0px;
+ 	margin-right: 50px;
+ 	width: 0px; 
+ 	height:0px;
+        }
+    #showcase{
+ 	background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5);
+ 	height: 50vh;
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ #showcase ul{
+ 	float: right;
+ 	list-style-type: none;
+ 	margin-top: 0px;
+ }
+  
+ #showcase ul li a{
+ 	text-decoration: none;
+ 	color: #ff5733;
+ 	padding: 3px 5px -2px;
+ 	border: 1px solid #ffff00;
+ 	border-radius: 20px;
+ 	font-size: 12px;
+
+ }
+ #showcase ul li a:hover{
+ 	background-color: #000;
+ 	color: #000;
+ }
+ #showcase .word {
+	display: inline-block;
+	text-decoration: none;
+	color: #980000;
+	border: 2px solid #800000;
+	border-radius: 20px;
+}
+#showcase .word .button {
+	color: #000;
+}
+#showcase .test{
+	display: block;
+ 	height: 55px;
+ 	width: 55px;
+ 	border-radius: 50%;
+ 	margin-right: 25%;
+ 	margin-left: 43%;
+ 	margin-bottom: 30px;
+
+}
+#showcase .last {
+	display: inline-block;
+	text-decoration: none;
+	border :1px solid #285000;
+	padding: 5px 15px;
+	border-radius: 20px;
+	color: #000;
+	margin-top: 50px;
+}	
+#showcase .last:hover{
+	background-color: #000;
+	color: #fff;
+
+ }
+ #showcase .head {
+	display: inline-block;
+	text-decoration: none;
+	color: #0000ff;
+	padding: 3px 5px -2px;
+ 	
+}
+ #showcase .headd {
+	display: inline-block;
+	text-decoration: none;
+	color: #0000ff;
+	padding: 3px 5px -2px;
+}
+#showcase .learn{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 7px;
+	padding: 0px 20px 5px;
+	color: #000;
+	padding: 3px 5px -2px;
+ 	border: 1px solid #000;
+
+}
+#showcase .write{
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+ 	background-color: #7ec7d1;
+ 	margin-bottom: 5px;
+
+}
+#showcase .explore{
+	padding: 3px 5px -2px;
+ 	border: 1px solid #000;
+ 	margin-right: 35%;
+ 	margin-left: 35%;
+ 	background-color: #00da35;
+ 	border-radius: 10px;
+
+}
+#showcase .explore:hover{
+  background-color: #000;
+  color: #ffff00;
+
+}
+
+}
+ @media only screen and (min-width: 1000px) {
+ 	 #showcase{
+ 	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(../123.jpg);
+ 	height: 12vh
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ #showcase ul{
+ 	float: right;
+ 	list-style-type: none;
+ 	margin-top: 0px;
+ }
+ #showcase .image{
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: 0px;
+ 	margin-right: 50px;
+ 	width: 400px; 
+ 	height:200px;
+
+ }
+ #showcase li{
+ 	display: inline-block;
+ }
+ #showcase ul li a{
+ 	text-decoration: none;
+ 	color: #ff5733;
+ 	padding: 5px 20px;
+ 	border: 1px solid #fff;
+ 	font-size: 15px;
+
+ }
+ #showcase ul li a:hover{
+ 	background-color: #000;
+ 	color: #fff;
+ }
+#showcase .button{
+	text-decoration: none;
+	border:1px solid #ddd;
+	padding: 4px 40px;
+	margin-left: 75px;
+	border-radius: 10px;
+
+}
+#showcase .word .button {
+	color: #000;
+}
+#showcase .button:hover{
+	background-color: #000;
+	color: #fff;
+}
+#showcase .word {
+	display: inline-block;
+	text-decoration: none;
+	color: #980000;
+}
+#showcase .head {
+	display: inline-block;
+	text-decoration: none;
+	color: #0000ff;
+}
+#showcase .last {
+	display: inline-block;
+	text-decoration: none;
+	border :1px solid #285000;
+	padding: 5px 15px;
+	border-radius: 20px;
+	color: #000;
+	margin-top: 50px;
+
+}
+#showcase .last:hover{
+	background-color: #000;
+	color: #fff;
+
+ }
+ #showcase .test{
+ 	float: left;
+ 	margin-top: 10px;
+ 	height: 200px;
+ 	width: 200px;
+ 	border-radius: 50px;
+
+ }
+  #showcase .headd {
+	display: inline-block;
+	text-decoration: none;
+	color: #0000ff;
+	padding: 3px 5px -2px;
+ 	border: 1px solid #ffff00;
+ 	border-radius: 20px;
+ 	font-size: 12px;
+}
+#showcase .write{
+	padding: 5px 5px 5px;
+	display: inline-block;
+	font-size: 20px;
+ 	border: 1px solid #000;
+ 	background-color: #7ec7d1;
+ 	margin-left: 100px;
+
+}
+#showcase .explore{
+	margin-left:10px; 
+	margin-right:10px;
+ 	border: 1px solid #000;
+ 	background-color: #00da35;
+ 	border-radius: 20px;
+
+}
+#showcase .explore:hover{
+  background-color: #000;
+  color: #ffff00;
+
+}
+#showcase .back{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	height: 250vh
+ 	background-size: cover;
+ 	background-position: center;
+}
+
+}
+
+
+
